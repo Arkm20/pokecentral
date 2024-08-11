@@ -1,4 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.zip* filter=lfs diff=lfs merge=lfs -text
+ filter=lfs diff=lfs merge=lfs -text
 pages/play/game/roms/black.zip filter=lfs diff=lfs merge=lfs -text
 pages/play/game/roms/white.zip filter=lfs diff=lfs merge=lfs -text
